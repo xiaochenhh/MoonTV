@@ -11,7 +11,7 @@ export const runtime = 'edge';
 /**
  * GET /api/favorites
  *
- * 支持两种调用方式：
+ * 1支持两种调用方式：
  * 1. 不带 query，返回全部收藏列表（Record<string, Favorite>）。
  * 2. 带 key=source+id，返回单条收藏（Favorite | null）。
  */
